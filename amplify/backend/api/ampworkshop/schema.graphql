@@ -1,0 +1,22 @@
+type Todo @model {
+  id: ID!
+  name: String!
+  description: String
+}
+type Post @model {
+  id: ID!
+  name: String!
+  location: String!
+  description: String!
+  image: String
+}
+
+
+
+
+# crud
+# sub
+# resolve
+# input
+# database
+# filter
